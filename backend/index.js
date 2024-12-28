@@ -13,7 +13,7 @@ const port = 5000;
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://github-wrapped-ten.vercel.app",
   }),
 );
 // Middleware to parse JSON bodies
