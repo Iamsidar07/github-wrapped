@@ -14,7 +14,7 @@ const GitHubWrapped = () => {
     // make request
     startTransition(async () => {
       await axiosClient.get(`/github-wrapped/${username}`);
-      setUsername("")
+      setUsername("");
       router.push(`/${username}`);
     });
   };
@@ -38,7 +38,7 @@ const GitHubWrapped = () => {
         </h1>
 
         <p className="text-gray-600">
-          Exa-powered AI analyzes your GitHub profile and gives you your 2024
+          pillu-powered AI analyzes your GitHub profile and gives you your 2024
           recap
         </p>
 
