@@ -7,7 +7,7 @@ export const Navbar = () => {
       <nav className="flex items-center justify-between">
         <Link href={"/"} className="flex items-center gap-2 text-xl">
           <Code className="w-5 h-5 text-accent" />
-          ghithub_wrapped
+          github_wrapped
         </Link>
       </nav>
     </header>

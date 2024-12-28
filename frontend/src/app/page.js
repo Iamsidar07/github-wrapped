@@ -14,6 +14,7 @@ const GitHubWrapped = () => {
     // make request
     startTransition(async () => {
       await axiosClient.get(`/github-wrapped/${username}`);
+      setUsername("")
       router.push(`/${username}`);
     });
   };
